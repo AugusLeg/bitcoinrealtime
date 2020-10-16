@@ -11,13 +11,13 @@ $.getJSON("https://api.coindesk.com/v1/bpi/currentprice.json", function(data) {
       class: "titre",
       id: key1 + "_title",
       html: key1
-    }).appendTo("body");
+    }).appendTo(".container");
 
     $("<ul/>", {
       class: "corps",
       id: key1,
       html: items.join("")
-    }).appendTo("body");
+    }).appendTo(".container");
   });
 
   var Date = data["time"]["updated"];
@@ -26,5 +26,5 @@ $.getJSON("https://api.coindesk.com/v1/bpi/currentprice.json", function(data) {
     class: "Date",
     id: "Date",
     html: "Last update " + Date
-  }).appendTo("body");
+  }).appendTo(".container");
 });
