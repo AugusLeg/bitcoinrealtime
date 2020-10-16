@@ -5,8 +5,21 @@ h1 {
 }
 
 img{
-  max-width: 50%;
+  max-width: 500px;
   height: auto;
   position: relative;
   right: 10;
 }
+
+.flag {
+  
+  margin-right: 0;
+}
+
+table{font-family: 'IBM Plex Serif', serif;
+  positio: absolute
+margin-left: 0;}
+
+h3 {font-family: 'Lemonada', cursive;
+text-align: center;
+font-size: 25px;}
