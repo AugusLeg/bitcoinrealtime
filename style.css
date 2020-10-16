@@ -1,4 +1,4 @@
-#USD {
+#USD_div {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/US_flag_large_51_stars.png);
   background-size: 70%;
   background-repeat: no-repeat;
@@ -6,6 +6,6 @@
   text-color: rgba(0, 0, 0, 1),
 }
 
-li {
+#USD {
   opacity:1;
 }
