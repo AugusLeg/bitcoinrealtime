@@ -1,7 +1,14 @@
+body{background-image: url(https://cdn.glitch.com/d26af322-5974-4ea8-8381-394bb2d86c57%2Fandre-francois-mckenzie-iGYiBhdNTpE-unsplash.jpg?v=1602867582102);
+background-position: center;
+background-size: auto;
+background-repeat: no-repeat;}
+
+
 h1 {
   font-family: "Lemonada", cursive;
   font-size: 100px;
   text-align: center;
+  color: white;
 }
 
 img{
@@ -11,15 +18,13 @@ img{
   right: 10;
 }
 
-.flag {
-  
-  margin-right: 0;
-}
-
 table{font-family: 'IBM Plex Serif', serif;
-  positio: absolute
-margin-left: 0;}
+  position: relative;
+margin-left: 0;
+color: white;
+text-shadow: 3px 3px 3px black;}
 
 h3 {font-family: 'Lemonada', cursive;
 text-align: center;
-font-size: 25px;}
+font-size: 25px;
+color: white}
