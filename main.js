@@ -25,6 +25,6 @@ $.getJSON("https://api.coindesk.com/v1/bpi/currentprice.json", function(data) {
   $("<h3/>", {
     class: "Date",
     id: "Date",
-    html: Date
+    html: "Last update " + Date
   }).appendTo("body");
 });
