@@ -13,13 +13,13 @@ $.getJSON("https://api.coindesk.com/v1/bpi/currentprice.json", function(data) {
       class: "titre",
       id: key1 + "_title",
       html: key1
-    }).appendTo("#" + key1 + "_div");
+    }).appendTo("#" + key1 + "_td");
 
     $("<ul/>", {
       class: "corps",
       id: key1,
       html: items.join("")
-    }).appendTo("#" + key1 + "_div");
+    }).appendTo("#" + key1 + "_td");
   });
 
   var Date = data["time"]["updated"];

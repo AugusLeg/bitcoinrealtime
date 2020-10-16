@@ -14,11 +14,16 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
     />
     <link
-          rel="icon" href="https://cdn.glitch.com/d26af322-5974-4ea8-8381-394bb2d86c57%2FBitcoin.svg.png?v=1602862928924"/>
-<!--Source: https://fr.m.wikipedia.org/wiki/Fichier:Bitcoin.svg-->
-    
+      rel="icon"
+      href="https://cdn.glitch.com/d26af322-5974-4ea8-8381-394bb2d86c57%2FBitcoin.svg.png?v=1602862928924"
+    />
+    <!--Source: https://fr.m.wikipedia.org/wiki/Fichier:Bitcoin.svg-->
+
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Lemonada&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Lemonada&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -26,19 +31,42 @@
       <h1>
         Real-time Bitcoin exchange rate
       </h1>
-      
-      <div id="USD_div">
-        
-        <img id="usflag" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/US_flag_large_51_stars.png"/>
-      </div>
-      
-      <div id="GBP_div">  
-      </div>
-      
-      <div id="EUR_div">  
-      </div>
-      
-      
+
+      <table id="USD_div">
+        <tr>
+          <td id="USD_td"></td>
+          <td>
+            <img
+              id="usflag"
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b2/US_flag_large_51_stars.png"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <table id="GBP_div">
+        <tr>
+          <td id="GBP_td"></td>
+          <td>
+            <img
+              id="ukflag"
+              src="https://upload.wikimedia.org/wikipedia/commons/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <table id="EUR_div">
+        <tr>
+          <td id="EUR_td"></td>
+          <td>
+            <img
+              id="euflag"
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg"
+            />
+          </td>
+        </tr>
+      </table>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>

@@ -1,9 +1,12 @@
 h1 {
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   font-size: 100px;
+  text-align: center;
 }
 
-#usflag {max-width: 50%;
+img{
+  max-width: 50%;
   height: auto;
-  position: absolute;
-right:}
+  position: relative;
+  right: 10;
+}
