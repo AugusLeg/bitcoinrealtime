@@ -7,7 +7,7 @@ $.getJSON("https://api.coindesk.com/v1/bpi/currentprice.json", function(data) {
       );
     });
 
-    $("<h1/>", {
+    $("<h2/>", {
       class: "titre",
       id: key1 + "_title",
       html: key1
