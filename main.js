@@ -1,3 +1,3 @@
-$.getJSON('https://link to your JSON data set', function(json) {
+$.getJSON('https://api.coindesk.com/v1/bpi/currentprice.json', function(json) {
   console.log(json);
 });
